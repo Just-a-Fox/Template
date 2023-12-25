@@ -1,0 +1,24 @@
+.gitignore
+
+#Исключаем Node модули
+
+node_modules/
+
+#Исключаем Gulp, а также его .json файлы
+
+/gulpfile.js
+gulp/
+/package.json
+/package-lock.json
+
+#Исключаем папку dist
+
+dist/
+
+#Исключаем папку desktop.ini
+
+desktop.ini
+
+#Исключаем исходники .psd, ТЗ, и прочее
+
+app/source/
